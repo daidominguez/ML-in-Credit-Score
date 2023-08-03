@@ -24,7 +24,7 @@ Tabla de Contenido
       * [ETAPA 3](#etapa-3)
       * [Web Scrapping](#web-scraping-de-redes-sociales)
       * [Modelo de Machine Learning](#modelo-de-machine-learning)
-    * [Video]()
+* [Video]()
 <!--te-->
 
 ## **Introducción**

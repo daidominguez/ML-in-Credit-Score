@@ -9,24 +9,6 @@
    </p>
 
 
-Tabla de Contenido
-=================
-
-<!--ts-->
-   * [Introducción](#introducción)
-   * [Contexto](#contexto)
-   * [Desarrollo del Proyecto](#desarrollo-del-proyecto)
-      * [Fuente de Datos](#fuente-de-datos)
-      * [ETAPA 1](#etapa-1)
-      * [Procesamiento de Lenguaje Natural (NLP)](#procesamiento-de-lenguaje-natural-nlp)
-      * [ETAPA 2](#etapa-2)
-      * [Pruebas del Algoritmo BLD](#pruebas-de-algoritmo-bld)
-      * [ETAPA 3](#etapa-3)
-      * [Web Scrapping](#web-scraping-de-redes-sociales)
-      * [Modelo de Machine Learning](#modelo-de-machine-learning)
-* [Video]()
-<!--te-->
-
 ## **Introducción**
 
 Bienvenidos a nuestro primer proyecto en equipo en colaboración con la Fintech SoyMunay con sede en Bolivia. Dicho proyecto se basa en desarrollar tres componentes que se utilizarán para automatizar la asignación de créditos, con el objetivo de obtener de una manera veloz, eficaz y certera valores numéricos para incluirlos como datos no tradicionales a un algoritmo ML. Para el desarrollo de este algoritmo se ha trabajado en tres bloques que serán desarrollados de forma explícita a lo largo de este documento:
@@ -62,18 +44,16 @@ Esta etapa del proyecto se basa en desarrollar un modelo de clasificación de te
 ---
 #### Librerías
 
-	google
-    gspread
     matplotlib
     nltk
     numpy
     openai
     os
-	pandas
-	seaborn
-	sklearn
-	string
-	sys
+    pandas
+    seaborn
+    sklearn
+    string
+    sys
 ---
 *-> Transformación de la Base de Datos*
 
@@ -102,16 +82,15 @@ El análisis se basará en el score F1 apoyado de precision, ya que se requiere 
 
 ---
 #### Librerías
-
-	deepface
+    deepface
     fer
     cv2
     matplotlib
-	pandas
+    pandas
     numpy
     time
     keras
-	tensorflow
+    tensorflow
 ---
 #### Bibliotecas
 Antes de ejecutar el código, asegúrate de tener instaladas las siguientes bibliotecas:
@@ -121,7 +100,6 @@ Antes de ejecutar el código, asegúrate de tener instaladas las siguientes bibl
 **OpenCV (cv2):** una biblioteca de visión por computadora que permite leer el video y procesar cada frame.
 
 `NOTA:` Puedes instalar las bibliotecas necesarias utilizando !pip.
-
 
 #### Modos de uso de los algoritmos
 ___
@@ -140,7 +118,7 @@ Al ejecutar el código, cada frame del video será procesado por DeepFace para i
 
 ___ 
 
-*-> DeepFace y OpenCV*
+*-> Fer y OpenCV*
 
 Este código utiliza la biblioteca FER (Facial Expression Recognition) junto con OpenCV para reconocer expresiones faciales en un video.
 
@@ -227,7 +205,7 @@ Instagram:
 * Promedio de likes por publicación en Instagram.
 * Promedio de comentarios por publicación en Instagram.
 
-*Para acceder al informe detallado por favor [ingresa aquí](https://github.com/NancyData/ML-in-Credit-Score/blob/main/Web%20scraping.ipynb)
+Para acceder al informe detallado por favor [ingresa aquí](https://github.com/NancyData/ML-in-Credit-Score/blob/main/Web%20scraping.ipynb)
 ___
 
 #### **Modelo de Machine Learning**
